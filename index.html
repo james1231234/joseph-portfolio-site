@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Joseph Thomas — computer science student at UMBC, building across web applications, AI, and cloud infrastructure. Explore projects, experience, and résumé."
+    />
+    <meta name="theme-color" content="#f4f2ea" />
+    <meta property="og:title" content="Joseph Thomas | Software & Cloud" />
+    <meta
+      property="og:description"
+      content="Computer science at UMBC. Selected work in web development, AI, and cloud infrastructure."
+    />
+    <meta property="og:type" content="website" />
+    <title>Joseph Thomas — Software & Cloud</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#" aria-label="Joseph Thomas home"
+        >JOSEPH THOMAS<span class="wordmark-dot" aria-hidden="true">●</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#contact">Contact</a>
+        <a
+          class="nav-resume"
+          href="./joseph-thomas-resume.pdf"
+          target="_blank"
+          rel="noopener"
+          >Résumé <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span> COMPUTER SCIENCE
+            · UMBC ’27
+          </p>
+          <h1 id="hero-title">Ideas into code.<br />Code into <em>use.</em></h1>
+          <p class="hero-intro">
+            I’m Joseph, a computer science student in Baltimore. I build web
+            applications and explore how AI and cloud infrastructure can solve
+            practical problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#work"
+              >Explore my work <span aria-hidden="true">↘</span></a
+            ><a
+              class="text-link"
+              href="https://github.com/james1231234"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Find me on GitHub <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <aside
+          class="hero-art"
+          aria-label="Areas of interest: software, cloud, and AI"
+        >
+          <div class="art-top">
+            <span>THE THINGS I CONNECT</span><span>01 / JT</span>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="art-core" aria-hidden="true">JKT</div>
+          <span class="art-tag tag-web">&lt;/&gt; SOFTWARE</span
+          ><span class="art-tag tag-cloud">↗ CLOUD</span
+          ><span class="art-tag tag-ai">✳ AI</span>
+          <div class="art-bottom">
+            <span>BALTIMORE, MD</span><span>ALWAYS BUILDING.</span>
+          </div>
+        </aside>
+        <div class="hero-foot">
+          <span>From interfaces to infrastructure.</span
+          ><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span>
+        </div>
+      </section>
+
+      <section
+        id="work"
+        class="work-section section-pad"
+        aria-labelledby="work-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / SELECTED WORK</p>
+              <h2 id="work-title">
+                Built with curiosity.<br /><em>Made to work.</em>
+              </h2>
+            </div>
+            <p>
+              A selection of personal and team projects, from a campus dashboard
+              to a cloud-ready portfolio.
+            </p>
+          </div>
+          <div class="filters" role="group" aria-label="Filter projects" hidden>
+            <button class="filter active" data-filter="all" aria-pressed="true">
+              All work <span>06</span></button
+            ><button class="filter" data-filter="web" aria-pressed="false">
+              Web</button
+            ><button class="filter" data-filter="ai" aria-pressed="false">
+              AI</button
+            ><button class="filter" data-filter="cloud" aria-pressed="false">
+              Cloud</button
+            ><button class="filter" data-filter="robotics" aria-pressed="false">
+              Robotics
+            </button>
+          </div>
+          <p
+            class="sr-only"
+            id="filter-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+          <div class="projects">
+            <article class="project project-featured" data-category="cloud web">
+              <div class="project-visual cloud-visual" aria-hidden="true">
+                <div class="visual-label">CLOUD WEB APPLICATION</div>
+                <div class="infra-mini">
+                  <span class="infra-client">Browser</span
+                  ><span class="infra-line">↓</span
+                  ><span class="infra-lb">Application Load Balancer</span
+                  ><span class="infra-line">↙ &nbsp; &nbsp; ↘</span>
+                  <div class="infra-instances">
+                    <span>EC2 <small>ZONE A</small></span
+                    ><span>EC2 <small>ZONE B</small></span>
+                  </div>
+                  <div class="infra-asg">↔ AUTO SCALING GROUP</div>
+                </div>
+                <span class="visual-note">DEPLOYMENT CONFIGURATION</span>
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>01 / CLOUD & WEB</span
+                  ><span class="project-state">AWS configuration ready</span>
+                </div>
+                <h3>One portfolio.<br />Built to scale.</h3>
+                <p>
+                  This portfolio pairs a responsive interface with AWS
+                  infrastructure as code: EC2 instances behind a load balancer,
+                  health checks, and target-tracking Auto Scaling.
+                </p>
+                <ul class="tags" aria-label="Technologies">
+                  <li>EC2</li>
+                  <li>Auto Scaling</li>
+                  <li>CloudFormation</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    class="text-link"
+                    href="https://github.com/james1231234/joseph-cloud-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View repository ↗</a
+                  ><a class="text-link" href="#cloud">See the architecture ↓</a>
+                </div>
+              </div>
+            </article>
+            <article class="project" data-category="ai web">
+              <div class="project-visual ai-visual" aria-hidden="true">
+                <span class="visual-label">TRINETRA AI</span>
+                <div class="viewfinder">
+                  <i></i><i></i><i></i><i></i>
+                  <div class="detection-box">
+                    VISUAL INTELLIGENCE<span>Detection → Insight</span>
+                  </div>
+                </div>
+                <span class="visual-note"
+                  >CONCEPT + APPLICATION DEVELOPMENT</span
+                >
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>02 / AI & WEB</span><span>In development</span>
+                </div>
+                <h3>Trinetra AI</h3>
+                <p>
+                  A visual intelligence platform concept for camera monitoring,
+                  detection, and incident workflows. My work includes FastAPI
+                  JWT authentication and a Next.js / React frontend.
+                </p>
+                <ul class="tags" aria-label="Technologies">
+                  <li>Next.js</li>
+                  <li>FastAPI</li>
+                  <li>PostgreSQL</li>
+                  <li>YOLOv8</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="mailto:jt619514@gmail.com?subject=Tell%20me%20about%20Trinetra%20AI"
+                  >Ask me about this project ↗</a
+                >
+              </div>
+            </article>
+            <article class="project" data-category="web">
+              <div class="project-visual dashboard-visual" aria-hidden="true">
+                <span class="visual-label">RETRIEVER ESSENTIALS</span>
+                <div class="mini-dashboard">
+                  <div class="mini-sidebar">
+                    re<span></span><span></span><span></span>
+                  </div>
+                  <div class="mini-content">
+                    <b>Campus support, in view.</b>
+                    <div class="mini-stats"><i></i><i></i><i></i></div>
+                    <div class="mini-bars">
+                      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                    </div>
+                  </div>
+                </div>
+                <span class="visual-note"
+                  >ILLUSTRATIVE DASHBOARD / DEMO DATA</span
+                >
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>03 / TEAM PROJECT</span><span>CMSC 447</span>
+                </div>
+                <h3>Retriever Essentials</h3>
+                <p>
+                  A team dashboard project for understanding UMBC’s basic-needs
+                  support. The current prototype uses synthetic data to explore
+                  metrics, visualizations, and reporting.
+                </p>
+                <ul class="tags" aria-label="Technologies">
+                  <li>TypeScript</li>
+                  <li>CSS</li>
+                  <li>Data visualization</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="https://github.com/james1231234/cmsc447-team2-retriever-essentials"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View repository ↗</a
+                >
+              </div>
+            </article>
+            <article class="project" data-category="web">
+              <div class="project-visual aviation-visual" aria-hidden="true">
+                <span class="visual-label">SRIN AVIATION</span
+                ><svg viewBox="0 0 420 170" class="flight-art">
+                  <path
+                    d="M35 140 C100 10 160 180 245 65 S345 35 390 20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-dasharray="5 7"
+                  />
+                  <circle cx="35" cy="140" r="5" fill="currentColor" />
+                  <circle cx="390" cy="20" r="5" fill="currentColor" />
+                  <g transform="translate(247 63) rotate(-25)">
+                    <path
+                      d="M-30 0L-5 -7L0 -30L6 -7L32 0L5 6L0 23L-5 6Z"
+                      fill="currentColor"
+                    />
+                  </g></svg
+                ><span class="visual-note"
+                  >MISSION PLANNING / WEB SHOWCASE</span
+                >
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>04 / INTERACTIVE WEB</span><span>Showcase</span>
+                </div>
+                <h3>SRIN Aviation</h3>
+                <p>
+                  An interactive aviation showcase with a Canvas-based
+                  flight-path simulator, technical specifications, and mission
+                  profiles for hybrid VTOL unmanned aerial systems.
+                </p>
+                <ul class="tags" aria-label="Technologies">
+                  <li>JavaScript</li>
+                  <li>Canvas API</li>
+                  <li>HTML / CSS</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="https://github.com/james1231234/srin-aviation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View repository ↗</a
+                >
+              </div>
+            </article>
+            <article class="project compact-project" data-category="robotics">
+              <div class="project-info">
+                <div class="project-meta">
+                  <span>05 / ROBOTICS</span><span>Team project</span>
+                </div>
+                <h3>UROS</h3>
+                <p>
+                  A robotic system built collaboratively from repurposed
+                  components. I programmed motor coordination and tested
+                  movement behavior.
+                </p>
+                <ul class="tags" aria-label="Technologies">
+                  <li>RobotC</li>
+                  <li>Motor control</li>
+                  <li>Hardware testing</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="mailto:jt619514@gmail.com?subject=Tell%20me%20about%20UROS"
+                  >Ask me about this project ↗</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="about-section section-pad wrap"
+        aria-labelledby="about-title"
+      >
+        <div class="about-intro">
+          <p class="eyebrow">02 / A LITTLE ABOUT ME</p>
+          <h2 id="about-title">
+            Curious about systems.<br /><em>Grounded in people.</em>
+          </h2>
+          <p>
+            I’m pursuing a B.S. in Computer Science at the University of
+            Maryland, Baltimore County, with graduation expected in May 2027.
+          </p>
+          <p>
+            Alongside building software, I support campus operations and
+            audiovisual setups at UMBC. Tutoring math and working with campus
+            teams have shaped how I approach problems: understand the need,
+            explain things clearly, and make the solution useful.
+          </p>
+          <a class="text-link" href="./joseph-thomas-resume.pdf" download
+            >Download my résumé ↓ <span class="file-type">PDF</span></a
+          >
+          <div class="skills">
+            <h3>My toolkit</h3>
+            <dl>
+              <div>
+                <dt>Languages</dt>
+                <dd>Python · C++ · SQL · JavaScript · HTML · CSS</dd>
+              </div>
+              <div>
+                <dt>Applications</dt>
+                <dd>React · Next.js · FastAPI · PostgreSQL</dd>
+              </div>
+              <div>
+                <dt>Systems & tools</dt>
+                <dd>AWS EC2 · Git · Linux · Bash · Redis · Kafka</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="experience">
+          <p class="eyebrow">EXPERIENCE & EDUCATION</p>
+          <div class="timeline-item">
+            <span class="timeline-date">SUMMER 2026</span>
+            <h3>Software development intern</h3>
+            <p class="organization">Innodots Innovations</p>
+            <p>
+              Explored software development and AI-assisted tools in a
+              technology-focused work environment.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">CURRENT</span>
+            <h3>Commons Operations</h3>
+            <p class="organization">UMBC · Student employee</p>
+            <p>
+              Support building operations, AV equipment, and event setups. Track
+              tasks and incidents using 7PointOps and Asana.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">BALTIMORE, MD</span>
+            <h3>Math tutor</h3>
+            <p>
+              Helped student-athletes with calculus, algebra, and statistics,
+              coordinating with advisors and faculty.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">EXPECTED MAY 2027</span>
+            <h3>B.S. Computer Science</h3>
+            <p class="organization">University of Maryland, Baltimore County</p>
+            <p>
+              Coursework in operating systems, database management, and cyber
+              defence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="cloud"
+        class="cloud-section section-pad"
+        aria-labelledby="cloud-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 / BEHIND THIS SITE</p>
+              <h2 id="cloud-title">
+                A small interface.<br /><em>A bigger picture.</em>
+              </h2>
+            </div>
+            <p>
+              This site doubles as a cloud engineering project. Its AWS template
+              defines how the application can run across two availability zones.
+            </p>
+          </div>
+          <ol class="architecture">
+            <li>
+              <span class="step-number">01</span>
+              <h3>Route</h3>
+              <p>
+                An Application Load Balancer directs traffic to healthy
+                instances.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <h3>Serve</h3>
+              <p>
+                EC2 instances serve the same versioned site artifact with Nginx.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <h3>Scale</h3>
+              <p>
+                Auto Scaling adjusts capacity using average CPU utilization.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">04</span>
+              <h3>Measure</h3>
+              <p>
+                A load-test script reports observed request success and latency.
+              </p>
+            </li>
+          </ol>
+          <p class="cloud-note">
+            <span aria-hidden="true">○</span> Infrastructure is provided as
+            deployment configuration. No live AWS deployment or uptime result is
+            claimed.
+          </p>
+          <a
+            class="text-link light-link"
+            href="https://github.com/james1231234/joseph-cloud-portfolio/tree/main/infra"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Explore the infrastructure ↗</a
+          >
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="contact-section section-pad wrap"
+        aria-labelledby="contact-title"
+      >
+        <p class="eyebrow">04 / LET’S CONNECT</p>
+        <div class="contact-layout">
+          <h2 id="contact-title">Have something<br /><em>in mind?</em></h2>
+          <div>
+            <p>
+              I’d love to talk about software, cloud projects, and opportunities
+              to learn and contribute.
+            </p>
+            <a class="contact-email" href="mailto:jt619514@gmail.com"
+              >jt619514@gmail.com <span aria-hidden="true">↗</span></a
+            ><a
+              class="text-link"
+              href="https://github.com/james1231234"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub / james1231234 ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap site-footer">
+      <span>© <span id="year">2026</span> Joseph Thomas</span
+      ><span>Built with care. Based in Baltimore.</span
+      ><a href="#">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
